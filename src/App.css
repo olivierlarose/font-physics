@@ -7,6 +7,29 @@
   pointer-events: none;
 }
 
+.scene{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.scene .main{
+  height: 100%;
+  width: 100%;
+}
+
+.scene .footer{
+  background-color: black;
+  color: white;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 50px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
